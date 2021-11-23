@@ -1,0 +1,25 @@
+.contacts {
+  margin: 0;
+}
+.contacts_list {
+  display: list-item;
+  margin: 0;
+  width: 50%;
+  padding: 10px;
+}
+.contacts_item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+
+  font-weight: 500;
+}
+.btn_delete {
+  margin: 10px 0 10px 0;
+  border: 2px solid rgba(22, 19, 51, 0.315);
+  border-radius: 4px;
+}
+.title {
+  margin: 10px 0 0;
+}
